@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - Angie's Cupcakes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&family=Fredoka:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+  
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Pacifico', cursive;
+    }
+    p {
+      font-family: 'Fredoka', sans-serif;
+    }
+  </style>
+
+</head>
+<body class="bg-[#fce8f0] text-gray-800">
+
+  <!-- LOGO CENTRÉ EN HAUT -->
+  <header class="flex justify-center pt-10 pb-4">
+    <a href="index.html">
+      <img src="ANGIES CUPCAKES LOGO LIGHT.avif" alt="Logo Angie's Cupcakes" class="h-28">
+    </a>
+  </header>
+
+  <!-- TITRE SECTION -->
+  <div class="text-center mb-12">
+    <h1 class="text-4xl font-extrabold text-gray-900">Notre Sélection Gourmande</h1>
+    <p class="text-lg text-gray-700 mt-2">Découvrez toutes nos créations maison</p>
+  </div>
+
+  <!-- BARRE DE RECHERCHE -->
+  <div class="text-center mb-10">
+    <input type="text" id="searchInput" placeholder="Rechercher un gâteau..." class="w-full max-w-md px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-pink-300" />
+  </div>
+
+  <!-- GRILLE CUPCAKES -->
+  <main class="px-6 md:px-16 pb-16">
+    <div class="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+      <!-- Cupcake 1 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Bouquet_deluxe.jpg" class="glightbox block w-full h-full" data-gallery="bouquet" data-title="">
+            <img src="Images_cupcakes/Bouquet_deluxe.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Bouquet_deluxe1.jpg" class="glightbox" data-gallery="bouquet" data-title="">
+            <img src="Images_cupcakes/Bouquet_deluxe1.jpg" alt="Bouquet deluxe - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Bouquet_deluxe2.jpg" class="glightbox" data-gallery="bouquet" data-title="">
+            <img src="Images_cupcakes/Bouquet_deluxe2.jpg" alt="Bouquet deluxe - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Bouquet_deluxe3.jpg" class="glightbox" data-gallery="bouquet" data-title="">
+            <img src="Images_cupcakes/Bouquet_deluxe3.jpg" alt="Bouquet deluxe - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Bouquet deluxe</h3>
+      </div>
+
+
+      <!-- Cupcake 2 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            En boutique
+          </span>
+          <a href="Images_cupcakes/Bouquet_classique.jpg" class="glightbox block w-full h-full" data-gallery="bouquet_classique" data-title="">
+            <img src="Images_cupcakes/Bouquet_classique.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/classique4.jpg" class="glightbox" data-gallery="bouquet_classique" data-title="">
+            <img src="Images_cupcakes/classique4.jpg" alt="Bouquet classique - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/classique2.jpg" class="glightbox" data-gallery="bouquet_classique" data-title="">
+            <img src="Images_cupcakes/classique2.jpg" alt="Bouquet classique - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/classique3.jpg" class="glightbox" data-gallery="bouquet_classique" data-title="">
+            <img src="Images_cupcakes/classique3.jpg" alt="Bouquet classique - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Bouquet classique</h3>
+      </div>
+
+
+      <!-- Cupcake 3 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/mini_cupcakes.jpg" class="glightbox block w-full h-full" data-gallery="cupcake3" data-title="">
+            <img src="Images_cupcakes/mini_cupcakes.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/mini_cupcakes1.jpg" class="glightbox" data-gallery="cupcake3" data-title="">
+            <img src="Images_cupcakes/mini_cupcakes1.jpg" alt="Mini cupcakes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/mini_cupcakes2.jpg" class="glightbox" data-gallery="cupcake3" data-title="">
+            <img src="Images_cupcakes/mini_cupcakes2.jpg" alt="Mini cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/mini_cupcakes3.jpg" class="glightbox" data-gallery="cupcake3" data-title="">
+            <img src="Images_cupcakes/mini_cupcakes3.jpg" alt="Mini cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Mini cupcakes</h3>
+      </div>
+
+            <!-- Cupcake 4 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            En boutique
+          </span>
+          <a href="Images_cupcakes/tea_time.jpg" class="glightbox block w-full h-full" data-gallery="cupcake4" data-title="">
+            <img src="Images_cupcakes/tea_time.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/tea_time1.jpg" class="glightbox" data-gallery="cupcake4" data-title="">
+            <img src="Images_cupcakes/tea_time1.jpg" alt="Mini cupcakes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/tea_time2.jpg" class="glightbox" data-gallery="cupcake4" data-title="">
+            <img src="Images_cupcakes/tea_time2.jpg" alt="Mini cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/tea_time3.jpg" class="glightbox" data-gallery="cupcake4" data-title="">
+            <img src="Images_cupcakes/tea_time3.jpg" alt="Mini cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Tea Time</h3>
+      </div>
+
+
+      <!-- Cupcake 5 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            En boutique
+          </span>
+          <a href="Images_cupcakes/sable_floraux.jpg" class="glightbox block w-full h-full" data-gallery="cupcake5" data-title="">
+            <img src="Images_cupcakes/sable_floraux.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/sable_floraux1.jpg" class="glightbox" data-gallery="cupcake5" data-title="">
+            <img src="Images_cupcakes/sable_floraux1.jpg" alt="Sablés floraux - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/sable_floraux2.jpg" class="glightbox" data-gallery="cupcake5" data-title="">
+            <img src="Images_cupcakes/sable_floraux2.jpg" alt="Sablés floraux - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/sable_floraux3.jpg" class="glightbox" data-gallery="cupcake5" data-title="">
+            <img src="Images_cupcakes/sable_floraux3.jpg" alt="Sablés floraux - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Sablés floraux</h3>
+      </div>
+
+      <!-- Cupcake 6 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Number_cupcakes.jpg" class="glightbox block w-full h-full" data-gallery="cupcake6" data-title="">
+            <img src="Images_cupcakes/Number_cupcakes.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Number_cupcakes1.jpg" class="glightbox" data-gallery="cupcake6" data-title="">
+            <img src="Images_cupcakes/Number_cupcakes1.jpg" alt="Number cupcakes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Number_cupcakes2.jpg" class="glightbox" data-gallery="cupcake6" data-title="">
+            <img src="Images_cupcakes/Number_cupcakes2.jpg" alt="Number cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Number_cupcakes3.jpg" class="glightbox" data-gallery="cupcake6" data-title="">
+            <img src="Images_cupcakes/Number_cupcakes3.jpg" alt="Number cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Number cupcakes</h3>
+      </div>
+
+      <!-- Cupcake 7 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Mini_number_cupcakes.jpg" class="glightbox block w-full h-full" data-gallery="cupcake7" data-title="">
+            <img src="Images_cupcakes/Mini_number_cupcakes.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Mini_number_cupcakes1.jpg" class="glightbox" data-gallery="cupcake7" data-title="">
+            <img src="Images_cupcakes/Mini_number_cupcakes1.jpg" alt="Mini Number cupcakes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Mini_number_cupcakes2.jpg" class="glightbox" data-gallery="cupcake7" data-title="">
+            <img src="Images_cupcakes/Mini_number_cupcakes2.jpg" alt="Mini Number cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Mini_number_cupcakes3.jpg" class="glightbox" data-gallery="cupcake7" data-title="">
+            <img src="Images_cupcakes/Mini_number_cupcakes3.jpg" alt="Mini Number cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Mini Number cupcakes</h3>
+      </div>
+
+      <!-- Cupcake 8 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/centre_de_table_deluxe.jpg" class="glightbox block w-full h-full" data-gallery="cupcake8" data-title="">
+            <img src="Images_cupcakes/centre_de_table_deluxe.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/centre_de_table_deluxe1.jpg" class="glightbox" data-gallery="cupcake8" data-title="">
+            <img src="Images_cupcakes/centre_de_table_deluxe1.jpg" alt="Centre de Table Deluxe - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/centre_de_table_deluxe2.jpg" class="glightbox" data-gallery="cupcake8" data-title="">
+            <img src="Images_cupcakes/centre_de_table_deluxe2.jpg" alt="Centre de Table Deluxe - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/centre_de_table_deluxe3.jpg" class="glightbox" data-gallery="cupcake8" data-title="">
+            <img src="Images_cupcakes/centre_de_table_deluxe3.jpg" alt="Centre de Table Deluxe - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Centre de Table Deluxe</h3>
+      </div>
+
+      <!-- Cupcake 9 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Noel.jpg" class="glightbox block w-full h-full" data-gallery="cupcake9" data-title="">
+            <img src="Images_cupcakes/Noel.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Noel1.jpg" class="glightbox" data-gallery="cupcake9" data-title="">
+            <img src="Images_cupcakes/Noel1.jpg" alt="Noël - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Noel2.jpg" class="glightbox" data-gallery="cupcake9" data-title="">
+            <img src="Images_cupcakes/Noel2.jpg" alt="Noël - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Noel3.jpg" class="glightbox" data-gallery="cupcake9" data-title="">
+            <img src="Images_cupcakes/Noel3.jpg" alt="Noël - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Noël</h3>
+      </div>
+
+      <!-- Cupcake 10 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Halloween.jpg" class="glightbox block w-full h-full" data-gallery="cupcake10" data-title="">
+            <img src="Images_cupcakes/Halloween.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Halloween1.jpg" class="glightbox" data-gallery="cupcake10" data-title="">
+            <img src="Images_cupcakes/Halloween1.jpg" alt="Halloween - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Halloween2.jpg" class="glightbox" data-gallery="cupcake10" data-title="">
+            <img src="Images_cupcakes/Halloween2.jpg" alt="Halloween - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Halloween3.jpg" class="glightbox" data-gallery="cupcake10" data-title="">
+            <img src="Images_cupcakes/Halloween3.jpg" alt="Halloween - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Halloween</h3>
+      </div>
+
+      <!-- Cupcake 11 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Anniversaire_enfant.jpg" class="glightbox block w-full h-full" data-gallery="cupcake11" data-title="">
+            <img src="Images_cupcakes/Anniversaire_enfant.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Anniversaire_enfant1.jpg" class="glightbox" data-gallery="cupcake11" data-title="">
+            <img src="Images_cupcakes/Anniversaire_enfant1.jpg" alt="Anniversaire enfant - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Anniversaire_enfant2.jpg" class="glightbox" data-gallery="cupcake11" data-title="">
+            <img src="Images_cupcakes/Anniversaire_enfant2.jpg" alt="Anniversaire enfant - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Anniversaire_enfant3.jpg" class="glightbox" data-gallery="cupcake11" data-title="">
+            <img src="Images_cupcakes/Anniversaire_enfant3.jpg" alt="Anniversaire enfant - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Anniversaire enfant</h3>
+      </div>
+
+      <!-- Cupcake 12 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/cactus_et_succulentes.jpg" class="glightbox block w-full h-full" data-gallery="cupcake12" data-title="">
+            <img src="Images_cupcakes/cactus_et_succulentes.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/cactus_et_succulentes1.jpg" class="glightbox" data-gallery="cupcake12" data-title="">
+            <img src="Images_cupcakes/cactus_et_succulentes1.jpg" alt="Cactus et succulentes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/cactus_et_succulentes2.jpg" class="glightbox" data-gallery="cupcake12" data-title="">
+            <img src="Images_cupcakes/cactus_et_succulentes2.jpg" alt="Cactus et succulentes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Cactus et succulentes</h3>
+      </div>
+
+      <!-- Cupcake 13 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/boite_de_cupcakes.jpg" class="glightbox block w-full h-full" data-gallery="cupcake13" data-title="">
+            <img src="Images_cupcakes/boite_de_cupcakes.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/mini_cupcakes2.jpg" class="glightbox" data-gallery="cupcake13" data-title="">
+            <img src="Images_cupcakes/mini_cupcakes2.jpg" alt="Boîte de cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/mini_cupcakes3.jpg" class="glightbox" data-gallery="cupcake13" data-title="">
+            <img src="Images_cupcakes/mini_cupcakes3.jpg" alt="Boîte de cupcakes - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Boîte de cupcakes</h3>
+      </div>
+
+      <!-- Cupcake 14 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Tulipes.jpg" class="glightbox block w-full h-full" data-gallery="cupcake14" data-title="">
+            <img src="Images_cupcakes/Tulipes.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Tulipes2.jpg" class="glightbox" data-gallery="cupcake14" data-title="">
+            <img src="Images_cupcakes/Tulipes2.jpg" alt="Tulipes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Tulipes3.jpg" class="glightbox" data-gallery="cupcake14" data-title="">
+            <img src="Images_cupcakes/Tulipes3.jpg" alt="Tulipes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Tulipes4.jpg" class="glightbox" data-gallery="cupcake14" data-title="">
+            <img src="Images_cupcakes/Tulipes4.jpg" alt="Tulipes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Tulipes</h3>
+      </div>
+
+
+      <!-- Cupcake 15 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Gender_reveal.jpg" class="glightbox block w-full h-full" data-gallery="cupcake15" data-title="">
+            <img src="Images_cupcakes/Gender_reveal.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/cupcake_individuel1.jpg" class="glightbox" data-gallery="cupcake15" data-title="">
+            <img src="Images_cupcakes/cupcake_individuel1.jpg" alt="Tulipes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Gender_reveal1.jpg" class="glightbox" data-gallery="cupcake15" data-title="">
+            <img src="Images_cupcakes/Gender_reveal1.jpg" alt="Tulipes - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Gender reveal</h3>
+      </div>
+
+      <!-- Cupcake 16 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/dome_cake.png" class="glightbox block w-full h-full" data-gallery="cupcake16" data-title="">
+            <img src="Images_cupcakes/dome_cake.png" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/dome_cake1.jpg" class="glightbox" data-gallery="cupcake16" data-title="">
+            <img src="Images_cupcakes/dome_cake1.jpg" alt="Dôme cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/dome_cake2.jpg" class="glightbox" data-gallery="cupcake16" data-title="">
+            <img src="Images_cupcakes/dome_cake2.jpg" alt="Dôme cake - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/dome_cake3.jpg" class="glightbox" data-gallery="cupcake16" data-title="">
+            <img src="Images_cupcakes/dome_cake3.jpg" alt="Dôme cake - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Dôme cake</h3>
+      </div>
+
+      <!-- Cupcake 17 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/bento_cake.jpg" class="glightbox block w-full h-full" data-gallery="cupcake17" data-title="">
+            <img src="Images_cupcakes/bento_cake.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/bento_cake1.jpg" class="glightbox" data-gallery="cupcake17" data-title="">
+            <img src="Images_cupcakes/bento_cake1.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/bento_cake3.jpg" class="glightbox" data-gallery="cupcake17" data-title="">
+            <img src="Images_cupcakes/bento_cake3.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Bento cake</h3>
+      </div>
+
+      <!-- Cupcake 18 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            En boutique
+          </span>
+          <a href="Images_cupcakes/cupcake_individuel.jpg" class="glightbox block w-full h-full" data-gallery="cupcake18" data-title="">
+            <img src="Images_cupcakes/cupcake_individuel.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/cupcake_individuel2.jpg" class="glightbox" data-gallery="cupcake18" data-title="">
+            <img src="Images_cupcakes/cupcake_individuel2.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/cupcake_individuel3.jpg" class="glightbox" data-gallery="cupcake18" data-title="">
+            <img src="Images_cupcakes/cupcake_individuel3.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a> 
+          <a href="Images_cupcakes/cupcake_individuel4.jpg" class="glightbox" data-gallery="cupcake18" data-title="">
+            <img src="Images_cupcakes/cupcake_individuel4.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>         
+        </div>
+        <h3 class="text-xl font-semibold">Cupcakes individuel</h3>
+      </div>
+
+      <!-- Cupcake 19 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/Mariage.jpg" class="glightbox block w-full h-full" data-gallery="cupcake19" data-title="">
+            <img src="Images_cupcakes/Mariage.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/Mariage1.jpg" class="glightbox" data-gallery="cupcake19" data-title="">
+            <img src="Images_cupcakes/Mariage1.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/Mariage2.jpg" class="glightbox" data-gallery="cupcake19" data-title="">
+            <img src="Images_cupcakes/Mariage2.jpg" alt="Bento cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>        
+        </div>
+        <h3 class="text-xl font-semibold">Mariage</h3>
+      </div>
+
+      <!-- Cupcake 20 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/entreprise.png" class="glightbox block w-full h-full" data-gallery="cupcake20" data-title="">
+            <img src="Images_cupcakes/entreprise.png" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">  
+          <a href="Images_cupcakes/entreprise1.png" class="glightbox" data-gallery="cupcake20" data-title="">
+            <img src="Images_cupcakes/entreprise1.png" alt="Dôme cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/entreprise2.png" class="glightbox" data-gallery="cupcake20" data-title="">
+            <img src="Images_cupcakes/entreprise2.png" alt="Dôme cake - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/entreprise3.png" class="glightbox" data-gallery="cupcake20" data-title="">
+            <img src="Images_cupcakes/entreprise3.png" alt="Dôme cake - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>     
+        </div>
+        <h3 class="text-xl font-semibold">Entreprise</h3>
+      </div>
+
+      <!-- Cupcake 21 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/fete_des_meres.jpg" class="glightbox block w-full h-full" data-gallery="cupcake21" data-title="">
+            <img src="Images_cupcakes/fete_des_meres.jpg" alt="Mini cupcakes" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/fete_des_meres1.jpg" class="glightbox" data-gallery="cupcake21" data-title="">
+            <img src="Images_cupcakes/fete_des_meres1.jpg" alt="Dôme cake - Autre angle" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/fete_des_meres2.jpg" class="glightbox" data-gallery="cupcake21" data-title="">
+            <img src="Images_cupcakes/fete_des_meres2.jpg" alt="Dôme cake - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/fete_des_meres3.jpg" class="glightbox" data-gallery="cupcake21" data-title="">
+            <img src="Images_cupcakes/fete_des_meres3.jpg" alt="Dôme cake - Zoom décor" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Fêtes des mères</h3>
+      </div>
+
+      <!-- Cupcake 22 -->
+      <div class="text-center mx-auto w-[300px]">
+        <div class="relative overflow-hidden rounded-lg shadow-md mb-4 w-full h-[300px]">
+          <span class="absolute top-2 left-2 z-30 bg-[#fce8f0] text-pink-800 text-xs font-semibold px-3 py-1 rounded-full shadow">
+            Sur commande
+          </span>
+          <a href="Images_cupcakes/StValentin.jpg" class="glightbox block w-full h-full" data-gallery="cupcake22" data-title="">
+            <img src="Images_cupcakes/StValentin.jpg" alt="" class="w-full h-full object-cover rounded-lg">
+          </a>
+        </div>
+        <div class="flex justify-center gap-2 mb-4">
+          <a href="Images_cupcakes/StValentin1.jpg" class="glightbox" data-gallery="cupcake22" data-title="">
+            <img src="Images_cupcakes/StValentin1.jpg" alt="" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+          <a href="Images_cupcakes/StValentin2.jpg" class="glightbox" data-gallery="cupcake22" data-title="">
+            <img src="Images_cupcakes/StValentin2.jpg" alt="" class="w-16 h-16 object-cover rounded hover:scale-105 transition-transform duration-200 shadow-sm">
+          </a>
+        </div>
+        <h3 class="text-xl font-semibold">Saint Valentin</h3>
+      </div>
+
+    </div>
+  </main>
+  
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('searchInput');
+    const cupcakeCards = document.querySelectorAll('main .text-center');
+    const closeBtn = document.getElementById('custom-close-btn');
+
+    // Fonction recherche
+    searchInput.addEventListener('input', function () {
+      const filter = this.value.toLowerCase();
+      cupcakeCards.forEach(card => {
+        const title = card.querySelector('h3').textContent.toLowerCase();
+        card.style.display = title.includes(filter) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: true,
+    closeButton: true,
+  });
+</script>
+
+
+</body>
+</html>
